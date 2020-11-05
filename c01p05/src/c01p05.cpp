@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : c01p05.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int occupents;
+	int fire;
+
+	cout << "Give the current number of occupents. \n";
+	cin >> occupents;
+
+	cout << "Give the maximum room capacity. \n";
+	cin >> fire;
+
+	if (occupents > fire) {
+		cout << "There are too many people.\n Remove ";
+		cout << occupents - fire << " people from the room";
+	}
+	else {
+		cout << "Maximum room capacity is currently not exceeded.";
+	}
+
+	return 0;
+}

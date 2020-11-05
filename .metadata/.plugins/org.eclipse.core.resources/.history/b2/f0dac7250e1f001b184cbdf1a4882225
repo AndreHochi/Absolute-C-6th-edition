@@ -1,0 +1,37 @@
+//============================================================================
+// Name        : c01p04.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	float face;
+	float interest;
+	int duration;
+	float recieve;
+	float check;
+
+	cout << "Insert the face value in dollars. \n$";
+	cin >> face;
+
+	cout << "Insert the interest percent. \n";
+	cin >> interest;
+	interest = interest/100;
+
+	cout << "Insert the duration of the payments in years. \n";
+	cin >> duration;
+
+	recieve =  face - (face * interest) * duration;
+
+	check = (recieve/duration)/(1-interest);
+
+	cout << recieve;
+
+	return 0;
+}

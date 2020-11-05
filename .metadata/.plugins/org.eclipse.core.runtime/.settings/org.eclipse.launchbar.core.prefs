@@ -1,0 +1,14 @@
+LaunchTargetManager/configs/c01p01.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/c01p02.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/c01p03.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/c01p07.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/c01p08.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/c01p09.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/c01p11.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:c01p01.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p02.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p03.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p04.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p05.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p06.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p07.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p08.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p09.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p10.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p11.exe,org.eclipse.launchbar.core.descriptorType.default\:c01p12.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:c01p01.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:c01p01.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

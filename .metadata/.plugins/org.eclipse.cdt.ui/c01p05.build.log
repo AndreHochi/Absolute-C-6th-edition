@@ -1,0 +1,7 @@
+21:20:18 **** Incremental Build of configuration Debug for project c01p05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\c01p05.o" "..\\src\\c01p05.cpp" 
+g++ -o c01p05.exe "src\\c01p05.o" 
+
+21:20:19 Build Finished. 0 errors, 0 warnings. (took 589ms)
+

@@ -1,0 +1,49 @@
+//============================================================================
+// Name        : c01p02.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	double mouse;
+	double weight;
+	double sweet;
+	double kill;
+
+	const double soda_percent = .001;
+
+	cout << "Your weight in kg please.";
+	cin >> weight;
+	cout << "The weight of the mouse in kg please.";
+	cin >> mouse;
+	cout << "The amount of sweetener used to kill the mouse please.";
+	cin >> sweet;
+
+	cout << "Given that the weight of the mouse is ";
+	cout << mouse << "kgs,\n";
+
+	cout << "and the amount of sweetener to kill the of the mouse is ";
+	cout << sweet << "kgs, \n";
+
+	cout << "and the your weight is";
+	cout << weight << "kgs. \n";
+
+	kill = sweet/mouse * weight;
+
+	cout << "It would take ";
+	cout << kill << "kgs of sweetener to kill you. \n";
+
+	kill = kill / soda_percent;
+
+	cout << "since each soda is .1 percent soda then it would take";
+	cout << kill << " kgs of soda to kill you.\n";
+
+
+	return 0;
+}
